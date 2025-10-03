@@ -1,0 +1,131 @@
+body{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 0; 
+    padding: 0;
+    background-color:white;
+    color:black;
+}
+
+header{
+    text-align: center;
+    background-color:#3F72AF;
+    color: white;
+    padding: 20px 0;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px #000000;
+    font-family:'Franklin Gothic Medium';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #112D4E;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 150px;
+}
+nav ul li {
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+
+nav ul li a:hover{
+    color:rgb(0, 0, 0);
+}
+
+nav form{
+    display: flex;
+    gap: 5px;
+
+}
+
+ nav input[type="search"]{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+ }
+
+ nav input[type="submit"]{
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px 10px;
+    cursor: pointer;
+ }
+nav input[type="submit"]:hover{
+    background-color:#A6E3E9;
+}
+main{
+    display: flex;
+    margin: 25px;
+    gap: 25px;
+
+}
+main article ul li {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+      border: 1px solid #cccccc;
+     border-radius: 15px;
+
+}
+main article p{
+    text-align: center;
+    font-size: 28px;
+}
+
+article{
+    flex:3;
+    background-color:#A6E3E9;
+    padding: 25px;
+    border: 1px solid #cccccc;
+     border-radius: 15px;
+}
+article h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+article h3{
+    color: #2980b9;
+    margin-top: 20px;
+}
+div{
+    flex:3;
+    background-color:#A6E3E9;
+    padding: 25px;
+    border: 1px solid #cccccc;
+     border-radius: 15px;
+}
+aside{
+    flex:3;
+    background-color:#A6E3E9;
+    padding: 25px;
+    border: 1px solid #cccccc;
+     border-radius: 15px;
+}
+footer{
+    flex: 4;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#112D4E;
+    color:#C9CDCF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
